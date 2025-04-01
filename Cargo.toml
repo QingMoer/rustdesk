@@ -1,11 +1,11 @@
 [package]
-name = "123321"
+name = "momo"
 version = "1.3.9"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "123321"
-default-run = "123321"
+description = "momo"
+default-run = "momo"
 rust-version = "1.75"
 
 [lib]
@@ -184,8 +184,8 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
-ProductName = "123321"
-FileDescription = "123321"
+ProductName = "momo"
+FileDescription = "momo"
 OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
@@ -202,8 +202,8 @@ hound = "3.5"
 docopt = "1.1"
 
 [package.metadata.bundle]
-name = "123321"
-identifier = "com.123321.www"
+name = "momo"
+identifier = "com.momo.www"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
